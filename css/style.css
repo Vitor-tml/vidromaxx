@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #e6f0fa 0%, #f4f4f4 100%);
     color: #333;
 }
 
@@ -62,8 +62,11 @@ header nav ul li a:hover {
 }
 
 .servicos {
-    background-color: white;
+    background: linear-gradient(135deg, #f8fafc 60%, #e6f0fa 100%);
     padding: 60px 0;
+    box-shadow: 0 2px 16px rgba(62, 116, 178, 0.05);
+    border-radius: 12px;
+    margin-bottom: 40px;
 }
 
 .servicos h2 {
@@ -217,4 +220,10 @@ footer {
         margin: 15px 0 0 0;
         width: 100%;
     }
+}
+
+.logo {
+    height: 48px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
