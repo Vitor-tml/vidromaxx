@@ -50,9 +50,20 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background: url('../imagens/material.jpg') no-repeat center center/cover;
+    position: relative;
+    background: url('../imagens/material.jpeg') no-repeat center center/cover;
     color: white;
     padding: 100px 0;
+    text-align: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5); /* preto com 50% de opacidade */
+    padding: 32px 16px;
+    border-radius: 12px;
+    color: #fff;
+    display: inline-block;
+    margin: 32px auto;
     text-align: center;
 }
 
@@ -226,4 +237,22 @@ footer {
     height: 48px;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+.galeria-servicos {
+    margin-top: 30px;
+    text-align: center;
+}
+.galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.galeria-imagens img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
