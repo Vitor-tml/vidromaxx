@@ -11,6 +11,7 @@
     <header>
         <div class="container">
             <h1>Vidraçaria Vidromaxx</h1>
+            <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
             <nav>
                 <ul>
                     <li><a href="#servicos">Serviços</a></li>
@@ -63,5 +64,10 @@
     <footer>
         <p>&copy; 2025 Vidraçaria Vidromaxx. Todos os direitos reservados.</p>
     </footer>
+    <script>
+    document.querySelector('.menu-toggle').onclick = function() {
+        document.querySelector('header nav').classList.toggle('open');
+    };
+    </script>
 </body>
 </html>
